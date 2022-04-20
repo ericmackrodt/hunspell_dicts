@@ -1,0 +1,5 @@
+# hunspell_pt_br extension
+comment = 'Brazilian Portuguese Hunspell Dictionary'
+default_version = '1.0'
+module_pathname = '$libdir/hunspell_pt_br'
+relocatable = true
