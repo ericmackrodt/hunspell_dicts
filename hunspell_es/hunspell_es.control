@@ -1,0 +1,5 @@
+# hunspell_es extension
+comment = 'Spanish Hunspell Dictionary'
+default_version = '1.0'
+module_pathname = '$libdir/hunspell_es'
+relocatable = true
