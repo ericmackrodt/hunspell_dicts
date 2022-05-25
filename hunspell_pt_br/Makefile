@@ -3,6 +3,8 @@ DATA = hunspell_pt_br--1.0.sql
 
 DATA_TSEARCH = pt_br.affix pt_br.dict
 
+REGRESS = hunspell_pt_br
+
 ifdef USE_PGXS
 PG_CONFIG = pg_config
 PGXS := $(shell $(PG_CONFIG) --pgxs)
