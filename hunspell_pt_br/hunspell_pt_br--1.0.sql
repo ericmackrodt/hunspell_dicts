@@ -1,7 +1,8 @@
 /* contrib/hunspell_pt_br/hunspell_pt_br--1.0.sql */
 -- complain if script is sourced in psql, rather than via CREATE EXTENSION
-\echo Use "CREATE EXTENSION hunspell_pt_br" to load this file. 
-quit CREATE TEXT SEARCH DICTIONARY portuguese_brazil_hunspell (
+\echo Use "CREATE EXTENSION hunspell_pt_br" to load this file. \quit 
+
+CREATE TEXT SEARCH DICTIONARY portuguese_brazil_hunspell (
   TEMPLATE = ispell,
   DictFile = pt_br,
   AffFile = pt_br,
