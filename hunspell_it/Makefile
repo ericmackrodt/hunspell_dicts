@@ -1,7 +1,7 @@
 EXTENSION = hunspell_it
 DATA = hunspell_it--1.0.sql
 
-DATA_TSEARCH = it.affix it.dict
+DATA_TSEARCH = it.affix it.dict italian.stop
 
 ifdef USE_PGXS
 PG_CONFIG = pg_config

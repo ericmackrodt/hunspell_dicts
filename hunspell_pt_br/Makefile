@@ -1,7 +1,7 @@
 EXTENSION = hunspell_pt_br
 DATA = hunspell_pt_br--1.0.sql
 
-DATA_TSEARCH = pt_br.affix pt_br.dict
+DATA_TSEARCH = pt_br.affix pt_br.dict portuguese.stop
 
 REGRESS = hunspell_pt_br
 
